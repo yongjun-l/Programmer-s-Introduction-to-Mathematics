@@ -1,4 +1,5 @@
 '''
+Code By : Yongjun Lee (yongjun.lee5@gmail.com)
 
 Stable Marriage Example
 
