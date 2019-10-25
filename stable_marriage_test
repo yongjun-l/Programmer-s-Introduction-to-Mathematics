@@ -1,4 +1,4 @@
-import * from  stable_marriage
+import * from  Stable_Marriage
 
 Bill = Suitor(3, [1,2,3])
 Jason = Suitor(1, [1,3,2])
