@@ -1,0 +1,24 @@
+import * from  stable_marriage
+
+Bill = Suitor(3, [1,2,3])
+Jason = Suitor(1, [1,3,2])
+Mike = Suitor(2, [1,3,2])
+
+Rachael = Suited(1, [2,3,1])
+Megan = Suited(2, [1,2,3])
+Casey = Suited(3, [1,3,2])
+
+mySuitors = [Bill,Jason, Mike]
+mySuiteds = [Rachael,Megan,Casey]
+
+a= stable_marriage(mySuitors,mySuiteds)
+
+#dictionary = dict([(1='horse'),(2='giraffe')])
+
+dictionary = dict(
+    Colorado='Rockies',
+    Boston='Red Sox',
+    Minnesota='Twins',
+    Milwaukee='Brewers',
+    Seattle='Mariners'
+)
